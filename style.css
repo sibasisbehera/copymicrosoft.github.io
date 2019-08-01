@@ -48,14 +48,15 @@ main{
 .card-body .card-text{padding:0!important;margin: 0!important; }
 .card-body a{font-size: 15px!important;text-transform: uppercase; font-weight: 400;}
 .banner{
-	background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0)),url('../images/baner.jpg');
 	width: 100%;
 	height: 420px;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	color: whitesmoke;
 	margin: 10px 0 40px;
 	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
 }
 
 .bannertext{position:absolute; top:7%; left:7%;}
